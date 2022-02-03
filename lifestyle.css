@@ -1,0 +1,75 @@
+@font-face {
+    font-family: abril;
+    src: url(./fonts/AbrilFatface-Regular.ttf);
+    font-family: libre-italic;
+    src: url(./fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf);
+    font-family: libre2;
+    src: url(./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+  }
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+    background-color: rgba(250, 250, 250, 0.993);
+}
+.header-content {
+    background-image: url(./pics/background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 400px 0px 20px 0px;
+    margin: 30px 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover {
+    color: rgb(189, 184, 184);
+    padding-bottom: 8px;
+    transition: 0.2s ease;
+}
+.logo-img {
+    width: 5%;
+    margin-right: 70px;
+}
+.header-p {
+    font-weight: bold;
+    font-family: abril;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+main {
+    margin: 30px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 10px 15px;
+    background-color: white;
+    text-align: center;
+    font-family: libre2;
+    margin: 30px 40px;
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    padding: 3px 15px 15px 15px;
+}
+.nature-img {
+    width: 70px;
+}
